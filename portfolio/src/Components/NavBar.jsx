@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../Components/NavbarStyle.css"
 import { Link } from 'react-router-dom'
-import{GiHamburgerMenu} from "react-icons/gi";
- function NavBar() {
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes } from "react-icons/fa";
+
+function NavBar() {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
     return (
         <div className='header'>
 
@@ -11,7 +15,7 @@ import{GiHamburgerMenu} from "react-icons/gi";
             </div>
 
 
-            <div className="right-side-nav">
+            <div className={click ? "right-side-nav" : "right-side-nav2"}>
                 <ul>
                     <li><Link to="/" >Home</Link></li>
                     <li><Link to="/projects" >Projects</Link></li>
@@ -20,9 +24,19 @@ import{GiHamburgerMenu} from "react-icons/gi";
 
                 </ul>
             </div>
-<div className="hamburger">
-<GiHamburgerMenu size={40} style={{color:"#fff"}}/>
-</div>
+            <div className="hamburger" onClick={handleClick}>
+                {
+                    click ? (
+                        <GiHamburgerMenu size={40} style={{ color: "#fff" }} />
+
+                    ) : (
+                        <FaTimes size={40} style={{ color: "#fff" }} />
+
+                    )
+                }
+
+
+            </div>
 
 
         </div>
