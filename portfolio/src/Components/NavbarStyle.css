@@ -1,72 +1,110 @@
 .header {
     display: flex;
+flex-direction: row;
     justify-content: space-between;
     /* background-color: red; */
-    padding: 20px 50px;
-    width:100% ;
-    border:  2px solid blue;
-
+    padding: 10px 50px;
 }
 
-.right-side-nav2 ul {
-    display: flex;
-    position:absolute;
-    /* background-color: red; */
+.right-side-nav-active{
+    /* background-color: yellow; */
+display: flex;
+margin-top: 20px;
+    flex-direction: row;
+} 
+
+.right-side-nav-active li{
+    padding: 10px;
     
 }
-
-.right-side-nav2 ul li {
-    padding-left: 10px;
-    list-style-type: none;
-    font-size: 35px;
+.right-side-nav-active li a{
+    font-size: 2.4rem;
+padding-left: 42px;
 }
 
-.right-side-nav2 ul li a {
-    text-decoration: none;
-    padding-left: 30px;
-    margin-top: 33px;
-}
 .hamburger{
     display: none;
 }
-@media screen and (max-width:1080px) {
 
 
 
-    .right-side-nav ul {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        top: 0;
-        left: -300%;
-        z-index: -3;
-transition: 0.3s;
+.left-side-nav{
+    margin-top: 20px;
+    
+}
 
-    }
 
-    .right-side-nav2 ul{
-        left: 0;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: 100vh;
-        z-index: -3;
-transition: 0.3s;
-        position: absolute;
-    }
 
-    .right-side-nav ul li,    .right-side-nav2 ul li {
-        padding-top: 70px;
-        list-style-type: none;
-        font-size: 35px;
-        margin-top: 53px;
-        margin-left: 480px;
-        font-size: 3rem;
-    }
 
-    .hamburger{
-        display: initial;
-    } 
+
+
+
+
+
+
+
+/* ..........................media queries................. */
+
+
+@media screen and (max-width:1040px) {
+    
+.ur-div-active{
+display: none;   
+
+}
+
+
+/* ...............when bamburger menu clicked................ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 10px 20px;
+}
+
+.ur-div {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    height: 100vh;
+
+    /* left: 30px; */
+}
+
+.right-side-nav {
+
+    /* padding-top: 10px; */
+/* margin-bottom: 233px; */
+    /* margin-top: 13PX; */
+    /* background-color: yellow; */
+/* border: 3px solid blue; */
+display: flex;
+text-align: center;
+height: 600px;
+justify-content: center;
+flex-direction: column;
+    transition: 0.3s;
+}
+
+.right-side-nav li {
+    padding-left: 2rem;
+    font-size: 2.5rem;
+padding-top: 60px;
+/* height: 80vh; */
+
+}
+.right-side-nav li a{
+    list-style-type: none;
+}
+
+
+.hamburger{
+    display: initial;
+    margin-top: 30px;
+    margin-right: 33px;
+}
+
+
 }
