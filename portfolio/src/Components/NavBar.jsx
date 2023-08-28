@@ -9,14 +9,15 @@ function NavBar() {
     const handleClick = () => setClick(!click);
     return (
         <div className='header'>
-
+            {/* ..............left nav .................... */}
             <div className="left-side-nav">
                 <h1><Link to="/"> PortFolio</Link></h1>
             </div>
 
-
-            <div className={click ? "right-side-nav" : "right-side-nav2"}>
-                <ul>
+            {/* .................right nav............... */}
+            <div className={ click  ? "ur-div":"ur-div-active"}>
+ 
+                <ul className={click ? "right-side-nav":"right-side-nav-active"}>
                     <li><Link to="/" >Home</Link></li>
                     <li><Link to="/projects" >Projects</Link></li>
                     <li><Link to="/about" >About</Link></li>
@@ -24,13 +25,21 @@ function NavBar() {
 
                 </ul>
             </div>
+
+
+
+
+
+
+
+            {/* .................hamburger icon................. */}
             <div className="hamburger" onClick={handleClick}>
                 {
                     click ? (
-                        <GiHamburgerMenu size={40} style={{ color: "#fff" }} />
+                        <FaTimes size={40} style={{ color: "#fff" }} />
 
                     ) : (
-                        <FaTimes size={40} style={{ color: "#fff" }} />
+                        <GiHamburgerMenu size={40} style={{ color: "#a1eb40" }} />
 
                     )
                 }

@@ -1,0 +1,122 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+}
+
+
+
+.left-footer{
+    /* background-color: gray; */
+}
+
+.location{
+/* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.home-detail{
+    display: flex;
+margin-left: 4rem;
+    flex-direction: column;
+}
+.home-detail span{
+color: white;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.call-detail{
+    /* border: 2px solid rgb(153, 255, 0); */
+    margin-top: 2rem;
+
+    display: flex;
+}
+.phone-no{
+    margin-left: 4rem;
+}
+.phone-no p{
+    font-size: 2rem;
+font-weight: 600;
+
+}
+
+.mail-info{
+    display: flex;
+    margin-top: 2rem;
+    /* border: 2px solid rgb(17, 0, 255); */
+
+}
+.mail-name{
+    margin-left: 4rem;
+
+}
+.mail-name p{
+    font-size: 1.2rem;
+font-weight: 600;
+
+}
+
+
+
+
+.right-footer{
+line-height: 60px;
+}
+.right-footer h1{
+    font-size: 3rem;
+}
+.right-footer p{
+    font-size: 1.3rem;
+}
+.social-icons{
+margin-top:2.3rem;
+}
+
+
+
+.github{
+
+}
+.github{
+
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .github:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+  }
+
+
+
+.linkdin{
+    margin-left: 3rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+
+}
+.linkdin:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+
+.insta{
+    margin-left: 3rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.insta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(161, 38, 147, 0.8);
+}
+

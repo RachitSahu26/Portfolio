@@ -1,43 +1,42 @@
-.hero-detail {
-    border:  2px solid red;
-    width: 100%;
-    height: 100vh;
+.hero{
+    /* background-color: rgb(190, 164, 164); */
     display: flex;
-    justify-content: center;
-
-}
-
-.user-contnet {
-    /* background-color: red; */
-    /* width: 200px; */
-    width: 50%;
+    margin-top: 163px;
   
-
-    margin-top: 133px;
-    text-align: center;
-    /* border:  2px solid yellow; */
-    height: 60vh;
-
+    justify-content: center;
 }
+.user-contnet{
+    
+}
+
 
 .user-contnet h1 {
     font-size: 50px;
 
 }
-
-.user-contnet p,
+.user-contnet 
 h1 {
     padding-top: 33px;
     font-size: 40px;
     font-family: 'outifit', sans-serif;
+font-weight: 100;
+margin-left: 63px;
 
-
+}
+.react{
+    font-size: 6rem;
+margin-top: 10px;
+    margin-left: 123px;
+}
+.developer{
+    font-size: 7rem;
 }
 
 .btn-box {
     /* border: 2px solid green; */
     /* width: 400px; */
     padding: 20px;
+    margin-left: 50px;
     color: white;
     margin-top: 33px;
 }
@@ -65,67 +64,152 @@ h1 {
     transition: 0.3s;
 }
 
-@media screen and (max-width:770px) {
-    .user-contnet p{
-        font-size: 50px;
 
-    } 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:550px) {
+   
+    .hero{
+    
+        margin-top: 63px;
+    }
     .user-contnet h1 {
-        font-size: 70px;
+        font-size: 30px;
+        margin-left: 73px;
+    
+    }
+
+
+
+    .react{
+        font-size: 4rem;
+    margin-top: 10px;
+    line-height: 102px;
+        margin-left: 123px;
+    }
+    .developer{
+    line-height: 102px;
+
+        font-size: 5rem;
+        margin-left: 33px;
+    
+    }
+    .btn-box {
+        /* border: 2px solid green; */
+        /* width: 400px; */
+        padding: 20px;
+        margin-left: 30px;
+
+        margin-top: 33px;
+    }
+    
+}
+
+
+@media screen and (max-width:450px) {
+    .user-contnet h1 {
+        font-size: 20px;
+        margin-left: 123px;
+    
+    }
+    .react{
+        font-size: 3rem;
+    margin-top: 10px;
+    line-height: 102px;
+        margin-left: 153px;
+    }
+    .developer{
+    line-height: 80px;
+
+        font-size: 4rem;
+        margin-left: 63px;
+    
+    }
+    .btn-box {
+        /* border: 2px solid green; */
+        /* width: 400px; */
+        padding: 20px;
+        margin-left: 17px;
+
+        margin-top: 33px;
+    }
+    
+
+}
+
+
+@media screen and (max-width:405px) {
+
+    .user-contnet h1 {
+        font-size: 20px;
+        margin-left: 103px;
+    
+    }
+    .react{
+        font-size: 2.5rem;
+    
+        margin-left: 143px;
+    }
+    .developer{
+    line-height: 60px;
+
+        font-size: 3rem;
+        margin-left: 73px;
+    
+    }
+    .btn-box {
+        
+        margin-left: 10px;
+
+        
+    }
+    
+    .btn {
+    
+        font-size: 1.5rem;
+   
+    }
+    
+
+  
+}
+@media screen and (max-width:360px) {
+    .user-contnet h1 {
+
+        margin-left: 73px;
+    
+    }
+    .react{
+        font-size: 2.5rem;
+    
+        margin-left: 113px;
+    }
+    .developer{
+
+
+        font-size: 2.7rem;
+        margin-left: 55px;
     
     }
     .btn {
-        margin-top: 22px;
-    }
-
-    .btn-light {
-        margin-left: 10px;
-
-    }
-
-
-
-    .btn-box {
-
-margin-right: 33px;
-    }
-
-    .user-contnet {
-        width: 90%;
-        height: 60%;
-    }
-
-    .hero-detail {
-        height: 102vh;
-    }
-}
-
-
-@media screen and (max-width:462px){
-    .user-contnet p{
-        font-size: 43px;
-
-    } 
-    .user-contnet h1 {
-        font-size: 50px;
     
+        font-size: 1rem;
+   
     }
-
-
-
-    .user-contnet {
-        width: 90%;
-        height: 50%;
-    }
+    
 }
 
-@media screen and (max-width:360px)
-{
-    .user-contnet {
-        width: 90%;
-        height: 50%;
-    }
-    .hero-detail {
-        height: 106vh;
-    }
-}
+/* ............................................ */
+
+
+
