@@ -1,0 +1,24 @@
+.Hero-sec2{
+    background-color: rgba(0, 0, 0,0.5);
+/* border: 2px solid aqua; */
+height: 50vh;
+width: 100%;
+
+}
+.project-detail{
+    height: 50vh;   
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+.project-detail h1{
+    margin-top: 140px;
+    text-align: center;
+font-size: 3rem;
+}
+.project-detail p{
+    text-align: center;
+    font-size: 2rem;
+font-weight: 200;
+}

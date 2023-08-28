@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
-import HomeSec from '../Components/HeroSec'
 import Footer from '../Components/Footer'
+import HomeSec from '../Components/HeroSec'
 
 
 function Home() {
