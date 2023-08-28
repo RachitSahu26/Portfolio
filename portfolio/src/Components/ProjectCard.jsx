@@ -1,25 +1,28 @@
 import React from 'react'
+// import pro1 from "../assets/Project_1.png";
 import "../Components/ProjectCardStyles.css";
-import pro1 from "../assets/Project_1.png";
-function ProjectCard() {
+import "../Components/ProjectData";
+import "../Components/CardData";
+
+function ProjectCard(props) {
   return (
-    <div className='Project-card-area'>
-      <div className="card">
+    <>
+ <div className="card">
         {/* .............project img............ */}
         <div className="pro-img">
-          <img src={pro1} alt='pro-img' />
+          <img src={props.imsrc} alt='pro-img' />
         </div>
 
 
         {/* ..................project detail........... */}
 
         <div className='project-about'>
-          <h1>Responsive Travel Website</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate quibusdam soluta unde, nesciunt ipsum aliquid amet harum exercitationem porro.</p>
+          <h1>{props.title}</h1>
+          <p></p>
 
           <div className="btn-box">
-            <button className='btn'> VIEW</button>
-            <button className='btn-light btn'> SOURCE</button>
+            <button className='btn'> {props.view}</button>
+            <button className='btn-light btn'> {props.source}</button>
 
           </div>
 
@@ -30,10 +33,7 @@ function ProjectCard() {
 
 
       </div>
-
-
-
-    </div >
+    </>
   )
 }
 

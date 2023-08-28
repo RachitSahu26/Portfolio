@@ -1,0 +1,11 @@
+.Project-card-area{
+    background-color: red;
+    height: 100vh;
+     border: 2px solid aqua;
+     padding: 50px 20px;
+     margin-left: 20px;
+}
+.projects{
+    font-size: 3rem;
+    padding: 0px 0px 30px 0px ;
+}
