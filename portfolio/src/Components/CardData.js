@@ -1,9 +1,8 @@
-
-import pro1 from "../assets/Project_1.png"
-import pro2 from "../assets/Project_2.png"
-import pro3 from "../assets/Project_3.png"
-import pro4 from "../assets/Project_4.png"
-
+import pro1 from "../assets/Projects_1.png";
+import pro2 from "../assets/Projects_2.png";
+import pro3 from "../assets/Projects_3.png";
+import pro4 from "../assets/Projects_4.png";
+import pro5 from "../assets/Projects_5.png";
 
 
 
@@ -51,7 +50,7 @@ source_url:"https://github.com/RachitSahu26/Crud-App"
 
         imgsrc: pro4,
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate quibusdam soluta unde, nesciunt ipsum aliquid amet harum exercitationem porro.",
-        title: "Random Password Genrator ",
+        title: "Random Password Generator ",
         view: "https://random-password-generator-vrs.netlify.app",
 source_url:"https://github.com/RachitSahu26/-50DayOfJavaScript"
 
@@ -65,8 +64,8 @@ source_url:"https://github.com/RachitSahu26/-50DayOfJavaScript"
     {
 
         imgsrc: pro5,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate quibusdam soluta unde, nesciunt ipsum aliquid amet harum exercitationem porro.",
-        title: "Counrty Detail App ",
+text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nulla quo. Maxime sed impedit adipisci. Id quis possimus aspernatur nobis!", 
+ title: "Counrty Detail App ",
         view: "https://country-detail-app-vrrs.netlify.app",
 source_url:"https://github.com/RachitSahu26/-50DayOfJavaScript"
 

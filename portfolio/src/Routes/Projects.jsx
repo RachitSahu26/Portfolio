@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import HeroSec2 from '../Components/HeroSec2'
-import ProjectCard from '../Components/ProjectCard'
+import CardArea from '../Components/CardArea'
 function Projects() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Projects() {
 
 <NavBar/>
 <HeroSec2/>
-<ProjectCard/>
+<CardArea/>
 <Footer/>
     </div>
   )

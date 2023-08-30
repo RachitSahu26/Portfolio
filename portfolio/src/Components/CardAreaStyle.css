@@ -1,0 +1,15 @@
+.Project-card-area{
+    /* background-color: red; */
+    min-height: 100vh;
+    height: auto;
+     /* border: 2px solid aqua; */
+     padding: 50px 20px;
+     margin-left: 40px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     
+}
+.projects{
+    font-size: 3rem;
+    padding: 0px 0px 30px 0px ;
+}
