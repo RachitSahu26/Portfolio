@@ -1,0 +1,25 @@
+
+
+.project-about {
+    /* border: 2px solid rgb(208, 41, 208); */
+    min-height: 48%;
+    height: auto;
+
+}
+
+.head {
+    /* border: 2px solid rgb(77, 208, 41); */
+    min-height: 3rem;
+    text-align: center;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.para {
+    /* border: 2px solid rgb(208, 161, 41); */
+    min-height: 4rem;
+    height: auto;
+    text-align: center;
+
+    padding: 10px 10px;
+}
