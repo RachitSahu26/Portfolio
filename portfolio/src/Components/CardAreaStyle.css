@@ -13,3 +13,54 @@
     font-size: 3rem;
     padding: 0px 0px 30px 0px ;
 }
+/* ................media queries............... */
+@media screen and (max-width:1040px){
+    .Project-card-area{
+        /* background-color: red; */
+        min-height: 100vh;
+        height: auto;
+         /* border: 2px solid aqua; */
+         padding: 50px 15px;
+         margin-left: 20px;
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         
+    }
+}
+
+@media screen and (max-width:904px){
+    .Project-card-area{
+       
+        padding: 40px 10px;
+        margin-left: 20px;
+ 
+        
+   }
+
+
+
+
+}
+
+
+@media screen and (max-width:840px){
+
+    .Project-card-area{
+       
+
+        margin-left: 18px;
+ 
+        
+   }
+
+}
+@media screen and (max-width:788px){
+
+    .Project-card-area{
+       
+
+        margin-left: 14px;
+ 
+        
+   }
+}
