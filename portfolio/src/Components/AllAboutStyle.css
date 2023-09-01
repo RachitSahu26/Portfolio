@@ -1,4 +1,4 @@
-.About{
+.About {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,13 +6,15 @@
     padding: 220px 180px;
     height: 105vh;
 }
-.my-img{
+
+.my-img {
     border: 12px solid rgb(151, 0, 174);
     border-radius: 50%;
     height: 55vh;
 
 }
-.my-img img{
+
+.my-img img {
     border-radius: 50%;
 
 }
@@ -23,73 +25,233 @@
 
 
 
-.my-detail{
-text-align: center;
-/* display: flex; */
-margin: 0 auto;
-/* margin-top: 80px; */
+.my-detail {
+    text-align: center;
+    /* display: flex; */
+    margin: 0 auto;
+    /* margin-top: 80px; */
 }
 
-.my-detail h1{
-    font-size:3rem ;
-line-height: 200px;
+.my-detail h1 {
+    font-size: 3rem;
+    line-height: 200px;
 
 }
-.my-detail p{
-    font-size:1.5rem ;
-line-height: 30px;
+
+.my-detail p {
+    font-size: 1.5rem;
+    line-height: 30px;
 }
+
 /* ..................media queries-----(1441)----.............. */
 
 
 
 
 @media screen and (max-width:1440px) {
-    .About{
+    .About {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         /* border: 2px solid red; */
         padding: 220px 140px;
-        
+
     }
-    .my-img{
+
+    .my-img {
         border: 12px solid rgb(151, 0, 174);
         border-radius: 10%;
         height: 43vh;
-    
-    }
-    .my-img img{
-        border-radius: 10%;
-    
+
     }
 
-    .my-detail{
+    .my-img img {
+        border-radius: 10%;
+
+    }
+
+    .my-detail {
         text-align: center;
         /* display: felx; */
         margin: 0 auto;
         /* margin-top: 80px; */
-        }
-        
-        .my-detail h1{
-            font-size:4rem ;
+    }
+
+    .my-detail h1 {
+        font-size: 4rem;
         line-height: 200px;
-        
-        }
-        .my-detail p{
-            font-size:2rem ;
+
+    }
+
+    .my-detail p {
+        font-size: 2rem;
         line-height: 50px;
-        }
-    
+    }
+
 }
-/* ..................media queries-----(1025)----.............. */
+
+/* ..................media queries-----(1041)----.............. */
+
+@media screen and (max-width:1041px) {
+    .About {
+
+        padding: 220px 60px;
+
+    }
+
+
+    .my-img {
+        border: 12px solid rgb(151, 0, 174);
+        border-radius: 20%;
+        height: 60vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .my-img img {
+        border-radius: 20%;
+        height: 57vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+
+
+}
+
+/* ..................media queries-----(981)----.............. */
+
+
+@media screen and (max-width:981px) {
+
+    .About {
+
+        flex-direction: column;
+
+        /* border: 2px solid red; */
+        padding: 70px 180px;
+        height: 125vh;
+    }
+
+    .my-img {
+        border: 10px solid rgb(151, 0, 174);
+        border-radius: 50%;
+        height: 53vh;
+       margin: 0 auto;
+        width: 350px;
+
+        object-fit: cover;
+    }
+
+    .my-img img {
+        border-radius: 50%;
+        height: 50vh;
+
+        width: 330px;
+    }
+    
+    .my-detail h1 {
+        font-size: 3rem;
+        line-height: 190px;
+
+    }
+
+    .my-detail p {
+        font-size: 1.8rem;
+    }
+
+
+
+}
 
 
 
 
+/* ..................media queries-----(711)----.............. */
+@media screen and (max-width:711px) {
+    
+    .About {
+        
+        flex-direction: column;
+        
+        border: 2px solid red;
+        padding: 80px 130px;
+        height: 125vh;
+    }
+
+    .my-img {
+        border: 10px solid rgb(151, 0, 174);
+        border-radius: 50%;
+        height: 43vh;
+       margin: 0 auto;
+        width: 300px;
+
+        object-fit: cover;
+    }
+
+    .my-img img {
+        border-radius: 50%;
+        height: 40vh;
+
+        width: 280px;
+    }
+    
 
 
 
+    .my-detail {
+        text-align: center;
+        /* display: felx; */
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 143px;
+    }
+    .my-detail h1 {
+        font-size: 3rem;
+        line-height: 100px;
+
+    }
+
+    .my-detail p {
+        font-size: 1.8rem;
+        line-height: 40px;
+    
+    }
+
+}
+
+
+
+/* ..................media queries-----(565)----.............. */
+@media screen and (max-width:565px) {
+    .About {
+        
+
+        
+
+        padding: 80px 100px;
+        height: 115vh;
+    }
+    
+    .my-img {
+        border: 10px solid rgb(151, 0, 174);
+        border-radius: 50%;
+        height: 38vh;
+       margin: 0 auto;
+        width: 250px;
+
+        object-fit: cover;
+    }
+
+    .my-img img {
+        border-radius: 50%;
+        height: 35vh;
+
+        width: 230px;
+    }
+    
+
+}
 
 
 
@@ -101,8 +263,8 @@ line-height: 30px;
 
 
 /* ..................media queries-----(375)----.............. */
-@media  screen and (max-width:376px) {
-    .About{
+@media screen and (max-width:376px) {
+    .About {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -111,20 +273,21 @@ line-height: 30px;
         height: 125vh;
     }
 
-    .my-img{
+    .my-img {
         border: 10px solid rgb(151, 0, 174);
         border-radius: 50%;
         height: 45vh;
-       
+
         width: 300px;
 
         object-fit: cover;
     }
-    .my-img img{
+
+    .my-img img {
         border-radius: 50%;
         height: 42.3vh;
         object-fit: cover;
-background-size: cover;
+        background-size: cover;
         width: 283px;
     }
 
