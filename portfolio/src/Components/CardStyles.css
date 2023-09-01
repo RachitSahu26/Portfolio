@@ -126,7 +126,7 @@
 
 
     .btn-box2 {
-            margin-left: 10px;
+        margin-left: 10px;
         width: 370px;
         min-height: 6rem;
     }
@@ -138,16 +138,16 @@
     }
 
     .btn-source {
-     
+
         margin-left: 42px;
     }
 
 
 
     .head {
-     
+
         min-height: 2rem;
-   
+
     }
 
     .para {
@@ -181,7 +181,7 @@
 
 
     .btn-box2 {
-            margin-left: 10px;
+        margin-left: 10px;
         width: 360px;
         min-height: 6rem;
     }
@@ -193,16 +193,16 @@
     }
 
     .btn-source {
-     
+
         margin-left: 40px;
     }
 
 
 
     .head {
-     
+
         min-height: 1.8rem;
-   
+
     }
 
     .para {
@@ -211,14 +211,15 @@
 
     }
 }
+
 /* ...............media--------(840 )--------queries........ */
 
 
 
-@media screen and (max-width:840px){
+@media screen and (max-width:840px) {
 
 
-    
+
     .card {
 
         width: 330px;
@@ -229,7 +230,7 @@
 
 
     .btn-box2 {
-            margin-left: 10px;
+        margin-left: 10px;
         width: 340px;
         min-height: 6rem;
     }
@@ -241,16 +242,16 @@
     }
 
     .btn-source {
-     
+
         margin-left: 40px;
     }
 
 
 
     .head {
-     
+
         min-height: 1.7rem;
-   
+
     }
 
     .para {
@@ -264,32 +265,46 @@
 /* ...............media--------(788 )--------queries........ */
 
 
-@media screen and (max-width:788px){
+@media screen and (max-width:788px) {
     .card {
 
 
         width: 300px;
-        min-height: 590px;
-    
+        min-height: 600px;
+
 
     }
+
+    .pro-img {
+
+        height: 40%;
+
+
+    }
+
+    .pro-img img {
+
+        border-radius: 20px;
+
+    }
+
     .project-about {
 
         margin-top: 2px;
         height: auto;
-    
+
     }
 
     .head {
-    padding: 3px 10px;
-     
+        padding: 3px 10px;
+
         min-height: 1.2rem;
-   
+
     }
 
     .para {
 
-        min-height: 2rem;
+        min-height: 1.5rem;
 
     }
 
@@ -297,28 +312,140 @@
 
 
     .btn-box2 {
-        border:  3px solid greenyellow;
-        margin-left: 3px;
-    width: 300px;
-    padding-left: 13px;
+        margin-top: 33px;
+        width: 300px;
+        padding-left: 13px;
 
-    min-height: 2rem;
-height: auto;
+        min-height: 4rem;
+        height: auto;
+    }
+
+
+
+    .btn-view {
+
+
+        font-size: 0.8rem;
+    }
+
+    .btn-source {
+        margin-left: 20px;
+        border: 2px solid red;
+        /* margin-top: -33px; */
+
+    }
+
+
+
+
+
+
 }
 
 
 
-.btn-view {
+/* ...............media--------(645 )--------queries........ */
 
-    font-size: 0.8rem;
+
+@media screen and (max-width:645px) {
+
+    .card {
+        background-color: rgb(24, 24, 24);
+        /* border: 2px solid red; */
+        width: 360px;
+        min-height: 600px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 22px 0px rgb(25, 54, 60);
+        margin: 10px;
+        margin-bottom: 4rem;
+        transition: 0.3s;
+    }
+
+    .head {
+
+        font-size: 2.3rem;
+
+    }
+
+    .para {
+
+        text-align: center;
+        font-size: 1.3rem;
+
+    }
+
+    .btn-box2 {
+        /* border: 2px solid red; */
+        /* margin-left: 30px;       */
+        margin-top: 0;
+        width: 350px;
+    }
+
+    .btn-view {
+        font-size: 0.7rem;
+        padding: 15px 26px;
+
+        margin-left: 22px;
+
+    }
+
+    .btn-source {
+        background: transparent;
+        color: #fff;
+        margin-left: 52px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
 
-.btn-source {
-    margin-left: 130px;
-}
 
 
 
+
+
+
+
+
+/* ...............media--------(433 )--------queries........ */
+
+
+
+
+
+
+@media screen and (max-width:433px) {
+
+
+    .card {
+
+        width: 320px;
+        min-height: 580px;
+
+
+    }
+
+    .head {
+
+        font-size: 2rem;
+
+    }
+
+    .para {
+
+        text-align: center;
+        font-size: 1rem;
+
+    }
 
 
 
