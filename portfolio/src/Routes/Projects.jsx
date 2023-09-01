@@ -9,7 +9,7 @@ function Projects() {
 
 
 <NavBar/>
-<HeroSec2/>
+<HeroSec2 Title={"project Page"} Text={"Recent All Projectss"}/>
 <CardArea/>
 <Footer/>
     </div>

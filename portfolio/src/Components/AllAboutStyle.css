@@ -1,0 +1,143 @@
+.About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 220px 180px;
+    height: 105vh;
+}
+.my-img{
+    border: 12px solid rgb(151, 0, 174);
+    border-radius: 50%;
+    height: 55vh;
+
+}
+.my-img img{
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+.my-detail{
+text-align: center;
+/* display: flex; */
+margin: 0 auto;
+/* margin-top: 80px; */
+}
+
+.my-detail h1{
+    font-size:3rem ;
+line-height: 200px;
+
+}
+.my-detail p{
+    font-size:1.5rem ;
+line-height: 30px;
+}
+/* ..................media queries-----(1441)----.............. */
+
+
+
+
+@media screen and (max-width:1440px) {
+    .About{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        padding: 220px 140px;
+        
+    }
+    .my-img{
+        border: 12px solid rgb(151, 0, 174);
+        border-radius: 10%;
+        height: 43vh;
+    
+    }
+    .my-img img{
+        border-radius: 10%;
+    
+    }
+
+    .my-detail{
+        text-align: center;
+        /* display: felx; */
+        margin: 0 auto;
+        /* margin-top: 80px; */
+        }
+        
+        .my-detail h1{
+            font-size:4rem ;
+        line-height: 200px;
+        
+        }
+        .my-detail p{
+            font-size:2rem ;
+        line-height: 50px;
+        }
+    
+}
+/* ..................media queries-----(1025)----.............. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..................media queries-----(375)----.............. */
+@media  screen and (max-width:376px) {
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        padding: 80px 40px;
+        height: 125vh;
+    }
+
+    .my-img{
+        border: 10px solid rgb(151, 0, 174);
+        border-radius: 50%;
+        height: 45vh;
+       
+        width: 300px;
+
+        object-fit: cover;
+    }
+    .my-img img{
+        border-radius: 50%;
+        height: 42.3vh;
+        object-fit: cover;
+background-size: cover;
+        width: 283px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

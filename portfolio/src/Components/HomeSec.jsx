@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Components/HeroStyle.css"
+import "../Components/HomeStyle.css"
 // import videoSource from '../assets/snow.mp4';
 function HomeSec() {
     return (
