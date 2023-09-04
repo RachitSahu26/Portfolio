@@ -133,55 +133,95 @@
 /* ...............................media queries................... */
 
 
-@media screen and (max-width:1040px) {
+
+/* ........................ media queries ( 913)  ............. */
+@media screen and (max-width:913px) {
 
     .footer {
-
-        padding: 70px 30px;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 50px;
+        /*  */
     }
 
+
+    .Home-icon {
+        width: 70px;
+        height: 70px;
+    }
 
     .home-detail span {
-
-        font-size: 1rem;
-
+        font-size: 1.7rem;
+        font-weight: 500;
     }
 
+    .Phone-icon {
+        width: 70px;
+        height: 70px;
+    }
 
     .phone-no p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        margin-top: 23px;
+    }
 
+    .Gmail-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .mail-name {
+        /* margin: 0 auto ; */
+        margin-left: 33px;
+        margin-top: 23px;
+        /* border: 2px solid aqua; */
 
     }
 
     .mail-name p {
-        font-size: 0.9rem;
-
+        font-size: 1.2rem;
     }
 
 
 
+    /* ................right side................ */
 
 
 
 
-
-
-
-    /* ...............right side footer............ */
-
+    .right-footer {
+        /* border: 2px solid rgb(0, 255, 21); */
+        margin-left: 57px;
+        /* width: 400px; */
+        /* margin-top:33px ; */
+    }
 
     .right-footer h1 {
-        font-size: 2rem;
+        font-size: 2.7rem;
+
     }
 
     .right-footer p {
-        font-size: 1rem;
+        font-size: 1.8rem;
+        line-height: 40px;
     }
 
-    .right-footer {
-        line-height: 50px;
+    .social-icons {
+        /* border: 2px solid red; */
+        line-height: 0;
+        padding: 10px 30px;
     }
+
+    .github,
+    .linkdin,
+    .insta {
+        width: 70px;
+        height: 70px;
+
+    }
+
+
 
 
 }
@@ -195,104 +235,155 @@
 
 
 
+/* ........................ media queries ( 415)  ............. */
+@media screen and (max-width:415px) {
 
-
-
-
-
-
-
-@media screen and (max-width:954px) {
     .footer {
-
-        padding: 70px 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 30px;
+        flex-direction: column;
     }
 
-    .left-footer {
-        padding: 4px 10px;
-    }
 
-    .home-detail {
-
-        margin-left: 2rem;
-
+    .Home-icon {
+        width: 40px;
+        height: 40px;
     }
 
     .home-detail span {
+        font-size: 1.2rem;
+    }
 
-        font-size: 0.8rem;
+    .Phone-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Gmail-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mail-name {
+        margin-left: 30px;
+    }
+
+    .mail-name p {
+        font-size: 1.1rem;
+    }
+
+
+
+    /* ................right side................ */
+
+
+
+
+    .right-footer {
+        /* border: 2px solid red; */
+        margin-left: -17px;
+        margin-top: 33px;
+    }
+
+    .right-footer h1 {
+        font-size: 1.9rem;
+
+    }
+
+    .right-footer p {
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+
+    .social-icons {
+        /* border: 2px solid red; */
+        line-height: 0;
+        padding: 10px 30px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+        width: 50px;
+        height: 50px;
 
     }
 
 
-    .phone-no p {
-        font-size: 1.3rem;
 
+
+}
+
+
+
+/* ........................ media queries ( 376)  ............. */
+@media screen and (max-width:376px) {
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 30px;
+        flex-direction: column;
+    }
+
+    .Home-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Phone-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Gmail-icon {
+        width: 30px;
+        height: 30px;
 
     }
 
     .phone-no {
-        margin-left: 2rem;
-        margin-top: 0.5rem;
-
-    }
-
-    .mail-name p {
-        font-size: 0.8rem;
+        margin-top: 0px;
 
     }
 
     .mail-name {
-        margin-left: 2rem;
-        margin-top: 0.5rem;
+        margin-left: 30px;
+        margin-top: 0px;
+
     }
 
-
-
-
-    /* ...............right side footer............ */
-
+    /* ................right side................ */
 
     .right-footer {
-        padding: 5px 20px;
+        /* border: 2px solid red; */
+        margin-left: -17px;
+        margin-top: 33px;
     }
 
     .right-footer h1 {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
+
     }
 
     .right-footer p {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        line-height: 40px;
     }
 
-    .right-footer {
-        line-height: 50px;
+    .social-icons {
+        /* border: 2px solid red; */
+        line-height: 0;
+        padding: 10px 30px;
     }
 
+    .github,
+    .linkdin,
+    .insta {
+        width: 40px;
+        height: 40px;
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* ........................760 media queries............. */
-@media screen  and (max-width:760px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        padding: 70px 100px;
     }
-    
-
-
 
 }

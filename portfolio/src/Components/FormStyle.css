@@ -4,7 +4,7 @@
     justify-content: center;
     padding-bottom:230px ;
     padding-top:200px ;
-
+  
     /* height: 100vh; */
 }
 
@@ -95,6 +95,7 @@ border: 2px solid white;
         background-color: rgb(20, 20, 20);
     padding: 30px 30px;
     width: 800px;
+border: 2px solid aqua;
     
     border-radius: 20px;
     }
@@ -107,4 +108,114 @@ border: 2px solid white;
         font-size: 3rem;
     }
     
+}
+/* ..................media queries-----(1025)----.............. */
+@media screen and (max-width:1085px) {
+    .Form-area{
+
+        padding: 20px 30px;
+        width: 500px;
+border: 2px solid aqua;
+        
+        }
+        label {
+            font-size: 0.5rem;
+        }
+}
+
+
+/* ..................media queries-----(1281)----.............. */
+@media screen and (max-width:1281px) {
+    .Form-area{
+        border: 2px solid aqua;
+
+        padding: 10px 30px;
+        width: 600px;
+        
+        }
+        label {
+            font-size: 2rem;
+        }
+
+}
+
+
+
+/* ..................media queries-----(541)----.............. */
+@media screen and (max-width:541px) {
+    .form{
+      /* height: 100vh; */
+    padding: 10px 30px;
+    
+    }
+  
+    
+    
+    .Form-area{
+border: 2px solid aqua;
+    padding: 20px 30px;
+    width: 600px;
+
+    }
+    label {
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ..................media queries-----(415)----.............. */
+@media screen and (max-width:415px) {
+    .form{
+      /* height: 100vh; */
+    padding: 10px 30px;
+    
+    }
+  
+    
+    
+    .Form-area{
+border: 2px solid aqua;
+    padding: 20px 30px;
+    width: 600px;
+
+    }
+    label {
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ..................media queries-----(376)----.............. */
+@media screen and (max-width:376px) {
+    .Form-area{
+     
+            width: 500px;
+        
+            }
+    label {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+/* ..................media queries-----(281)----.............. */
+@media screen and (max-width:281px) {
+    input[type="text"],
+    input[type="email"], textarea {
+       
+    font-size: 1rem;
+    }
+
 }

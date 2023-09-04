@@ -113,6 +113,26 @@
 
 /* ........................media Queries............ */
 
+
+/* ...............media--------(1025 )--------queries........ */
+
+
+@media screen and (max-width:1025px) {
+    .card {
+    margin-left: 30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:954px) {
 
 
@@ -450,3 +470,39 @@
 
 
 }
+
+/* ...............media--------(376 )--------queries........ */
+
+
+
+
+
+
+@media screen and (max-width:376px) {
+
+    .card {
+
+    margin-left: 1px;
+
+    }
+
+}
+
+
+/* ...............media--------(361 )--------queries........ */
+
+
+
+
+
+
+@media screen and (max-width:361px) {
+
+    .card {
+
+    margin-left: -4px;
+margin-top: 22px;
+    }
+
+}
+

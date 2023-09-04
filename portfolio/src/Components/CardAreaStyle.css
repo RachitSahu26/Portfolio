@@ -1,42 +1,66 @@
-.Project-card-area{
+.Project-card-area {
     /* background-color: red; */
     min-height: 100vh;
     height: auto;
-     /* border: 2px solid aqua; */
-     padding: 50px 20px;
-     margin-left: 40px;
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
-     
+    /* border: 2px solid aqua; */
+    padding: 50px 20px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
-.projects{
+
+.projects {
     font-size: 3rem;
-    padding: 0px 0px 30px 0px ;
+    padding: 0px 0px 30px 0px;
 }
+
+
+
+
+
+
+/* ................media queries--------(1281)---------............... */
+@media screen and (max-width:1281px) {
+    .Project-card-area {
+
+        margin-left: 0px;
+        
+
+    }
+
+
+}
+
+
+
+
+
 /* ................media queries--------(1040)---------............... */
-@media screen and (max-width:1040px){
-    .Project-card-area{
+@media screen and (max-width:1040px) {
+    .Project-card-area {
         /* background-color: red; */
         min-height: 100vh;
         height: auto;
-         /* border: 2px solid aqua; */
-         padding: 50px 15px;
-         margin-left: 20px;
-         display: grid;
-         grid-template-columns: repeat(2,1fr);
-         
+        /* border: 2px solid aqua; */
+        padding: 50px 15px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
     }
 }
+
 /* ................media queries--------(904)---------............... */
 
-@media screen and (max-width:904px){
-    .Project-card-area{
-       
+@media screen and (max-width:904px) {
+    .Project-card-area {
+
         padding: 40px 10px;
         margin-left: 20px;
- 
-        
-   }
+
+
+    }
 
 
 
@@ -45,125 +69,132 @@
 
 /* ................media queries--------(840)---------............... */
 
-@media screen and (max-width:840px){
+@media screen and (max-width:840px) {
 
-    .Project-card-area{
-       
+    .Project-card-area {
+
 
         margin-left: 18px;
- 
-        
-   }
 
-}
-/* ................media queries--------(788)---------............... */
 
-@media screen and (max-width:788px){
-
-    .Project-card-area{
-       
-
-        margin-left: 20px;
- 
-        
-   }
-}
-/* ................media queries--------(705)---------............... */
-
-@media screen and (max-width:705px){
-
-    .Project-card-area{
-       
-
-        margin-left: 10px;
- 
-        
-   }
-
-}
-/* ................media queries--------(666)---------............... */
-
-@media screen and (max-width:666px){
-    .Project-card-area{
-       
-
-        margin-left: 1px;
- 
-        
-   }
-}
-/* ................media queries--------(645)---------............... */
-
-@media screen and (max-width:645px){
-
-    .Project-card-area{
-        
-         margin-left: 90px;
-  
-         grid-template-columns: repeat(1,1fr);
-         
     }
 
 }
+
+/* ................media queries--------(788)---------............... */
+
+@media screen and (max-width:788px) {
+
+    .Project-card-area {
+
+
+        margin-left: 20px;
+
+
+    }
+}
+
+/* ................media queries--------(705)---------............... */
+
+@media screen and (max-width:705px) {
+
+    .Project-card-area {
+
+
+        margin-left: 10px;
+
+
+    }
+
+}
+
+/* ................media queries--------(666)---------............... */
+
+@media screen and (max-width:666px) {
+    .Project-card-area {
+
+
+        margin-left: 1px;
+
+
+    }
+}
+
+/* ................media queries--------(645)---------............... */
+
+@media screen and (max-width:645px) {
+
+    .Project-card-area {
+
+        margin-left: 90px;
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
+
 /* ................media queries--------(532)---------............... */
 
 
-@media screen and (max-width:532px){
-    .Project-card-area{
-        
+@media screen and (max-width:532px) {
+    .Project-card-area {
+
         margin-left: 50px;
- 
-   
-        
-   }
+
+
+
+    }
 
 }
 
 /* ................media queries--------(465)---------............... */
 
-@media screen and (max-width:465px){
+@media screen and (max-width:465px) {
 
-    .Project-card-area{
-        
+    .Project-card-area {
+
         margin-left: 20px;
- 
-   
-        
-   }
+
+
+
+    }
 }
 
 /* ................media queries--------(434)---------............... */
 
-@media screen and (max-width:434px){
-    .Project-card-area{
-        
+@media screen and (max-width:434px) {
+    .Project-card-area {
+
         margin-left: 2.5rem;
- 
-   
-        
-   }
+
+
+
+    }
 }
+
 /* ................media queries--------(418)---------............... */
 
-@media screen and (max-width:418px){
+@media screen and (max-width:418px) {
 
-    .Project-card-area{
-        
+    .Project-card-area {
+
         margin-left: 1.5rem;
- 
-   
-        
-   }
+
+
+
+    }
 }
+
 /* ................media queries--------(392)---------............... */
 
-@media screen and (max-width:392px){
-    .Project-card-area{
-        
+@media screen and (max-width:392px) {
+    .Project-card-area {
+
         margin-left: 1rem;
- 
-   
-        
-   }
+
+
+
+    }
 
 }

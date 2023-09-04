@@ -23,7 +23,7 @@ function Footer() {
             <div className="left-footer">
 
                 <div className="location">
-                    <HiOutlineHome size={40} style={{ color: "#fff" }} />
+                    <HiOutlineHome className='Home-icon' size={40} style={{ color: "#fff" }} />
                     <div className="home-detail">
                         <span>Uttar Pradesh</span>
                         <span> Karwi Chitrakoot</span>
@@ -33,7 +33,7 @@ function Footer() {
 
 
                 <div className="call-detail">
-                    <FiPhoneCall size={40} style={{ color: "#fff" }} />
+                    <FiPhoneCall className='Phone-icon' size={40} style={{ color: "#fff" }} />
                     <div className="phone-no">
                         <p>94-73-56-58-17</p>
                     </div>
@@ -42,7 +42,7 @@ function Footer() {
 
 
                 <div className="mail-info">
-                    <GrMail size={40} style={{ color: "#fff" }} />
+                    <GrMail className='Gmail-icon' size={40} style={{ color: "#fff" }} />
 
                     <div className="mail-name">
                         <p>curiousrachit.26@gamil.com</p>
