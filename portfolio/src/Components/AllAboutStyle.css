@@ -1,524 +1,164 @@
-.About {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-    padding: 220px 180px;
-    height: 105vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 
-.my-img {
-    border: 12px solid rgb(151, 0, 174);
-    border-radius: 50%;
-    height: 55vh;
-
-}
-
-.my-img img {
-    border-radius: 50%;
-
-}
-
-
-
-
-
-
-
-.my-detail {
-    text-align: center;
-    /* display: flex; */
-    margin: 0 auto;
-    /* margin-top: 80px; */
-}
-
-.my-detail h1 {
-    font-size: 3rem;
-    line-height: 200px;
-
-}
-
-.my-detail p {
-    font-size: 1.5rem;
-    line-height: 30px;
-}
-
-/* ..................media queries-----(1441)----.............. */
-
-
-
-
-@media screen and (max-width:1440px) {
-    .About {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* border: 2px solid red; */
-        padding: 220px 140px;
-
-    }
-
-    .my-img {
-        border: 12px solid rgb(151, 0, 174);
-        border-radius: 10%;
-        height: 43vh;
-
-    }
-
-    .my-img img {
-        border-radius: 10%;
-
-    }
-
-    .my-detail {
-        text-align: center;
-        /* display: felx; */
-        margin: 0 auto;
-        /* margin-top: 80px; */
-    }
-
-    .my-detail h1 {
-        font-size: 4rem;
-        line-height: 200px;
-
-    }
-
-    .my-detail p {
-        font-size: 2rem;
-        line-height: 50px;
-    }
-
-}
-
-/* ..................media queries-----(1041)----.............. */
-
-@media screen and (max-width:1041px) {
-    .About {
-
-        padding: 220px 60px;
-
-    }
-
-
-    .my-img {
-        border: 12px solid rgb(151, 0, 174);
-        border-radius: 20%;
-        height: 60vh;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-    .my-img img {
-        border-radius: 20%;
-        height: 57vh;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-
-
-}
-
-/* ..................media queries-----(981)----.............. */
-
-
-@media screen and (max-width:981px) {
-
-    .About {
-
-        flex-direction: column;
-  
-
-        /* border: 2px solid red; */
-        padding: 70px 180px;
-        height: 125vh;
-    }
-
-    .my-img {
-        border: 10px solid rgb(151, 0, 174);
-        border-radius: 50%;
-        height: 43vh;
-        margin: 0 auto;
-        width: 414px;
-
-        object-fit: cover;
-    }
-
-    .my-img img {
-        border-radius: 50%;
-        height: 41vh;
-        width: 396px;
-    }
-
-    .my-detail h1 {
-        font-size: 3rem;
-        line-height: 190px;
-
-    }
-
-    .my-detail p {
-        font-size: 1.8rem;
-    }
-
-
-
-}
-
-/* ..................media queries-----(912)----.............. */
-@media screen and (max-width:912px) {
-    
-    .About {
-
-        flex-direction: column;
-
-        /* border: 2px solid red; */
-        padding: 280px 130px;
-        height: 115vh;
-    }
-
-
-
-
-
-
-    .my-img {
-        border: 10px solid rgb(151, 0, 174);
-        border-radius: 50%;
-        height: 36vh;
-        margin: 0 auto;
-        width: 409px;
-
-        object-fit: cover;
-    }
-
-    .my-img img {
-        border-radius: 50%;
-        height: 35vh;
-        width: 390px;
-    }
-
-    
-    
-    .my-detail {
-
-       
-        /* border: 2px solid red; */
-        
-        /* margin-bottom: 390px; */
-    }
-    .my-detail h1 {
-        font-size: 5rem;
-
-
-    }
-
-    .my-detail p {
-        font-size: 3rem;
-        line-height: 50px;
-
-    }
-}
-
-
-
-
-
-
-
-/* ..................media queries-----(768)----.............. */
-
-@media screen and (max-width:768px) {
-
-    .my-detail {
-        text-align: center;
-        /* display: felx; */
-        margin: 0 auto;
-        padding: 10px 20px;
-        /* border: 2px solid red; */
-        margin-top: 20px;
-        margin-bottom: 200px;
-    }
-
-
-    .my-detail h1 {
-        font-size: 3.5rem;
-
-
-    }
-
-    .my-detail p {
-        font-size: 2rem;
-        line-height: 50px;
-
-    }
-
-}
-/* ..................media queries-----(711)----.............. */
-@media screen and (max-width:711px) {
-
-    .About {
-
-        flex-direction: column;
-
-        /* border: 2px solid red; */
-        padding: 80px 130px;
-        height: 125vh;
-    }
-
-    .my-img {
-        border: 10px solid rgb(151, 0, 174);
-        border-radius: 50%;
-        height: 43vh;
-        margin: 0 auto;
-        width: 300px;
-
-        object-fit: cover;
-    }
-
-    .my-img img {
-        border-radius: 50%;
-        height: 40vh;
-
-        width: 280px;
-    }
-
-
-
-
-    .my-detail {
-        text-align: center;
-        /* display: felx; */
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 143px;
-    }
-
-    .my-detail h1 {
-        font-size: 3rem;
-        line-height: 100px;
-
-    }
-
-    .my-detail p {
-        font-size: 1.8rem;
-        line-height: 40px;
-
-    }
-
-}
-
-
-
-/* ..................media queries-----(565)----.............. */
-@media screen and (max-width:565px) {
-    .About {
-
-
-
-
-        padding: 80px 100px;
-        height: 115vh;
-    }
-
-    .my-img {
-        border: 10px solid rgb(151, 0, 174);
-        border-radius: 50%;
-        height: 38vh;
-        margin: 0 auto;
-        width: 250px;
-
-        object-fit: cover;
-    }
-
-    .my-img img {
-        border-radius: 50%;
-        height: 35vh;
-
-        width: 230px;
-    }
-
-
-}
-
-/* ..................media queries-----(467)----.............. */
-@media screen and (max-width:467px) {
-    .About {
-        padding: 80px 40px;
-        height: 115vh;
-    }
-
-    .my-img {
-
-        height: 35vh;
-
-        width: 230px;
-
-    }
-
-    .my-img img {
-    
-        height: 32vh;
-
-        width: 210px;
-    }
-
-
-    .my-detail h1 {
-        font-size: 2.3rem;
-        line-height: 100px;
-
-    }
-
-    .my-detail p {
-        font-size: 1.4rem;
-        line-height: 40px;
-
-    }
-
-}
-/* ..................media queries-----(412)----.............. */
-
-@media screen and (max-width:412px){
-    .About {
-        padding: 155px 40px;
-        height: 104vh;
-    }
-    .my-img img {
-        height: 31vh;
-        width: 232px;
-
-}
-.my-img {
-    height: 33vh;
-    width: 251px;
-
-}
-
-
-
-.my-detail h1 {
-    font-size: 3rem;
-    line-height: 100px;
-
-}
-
-.my-detail p {
-    font-size: 1.8rem;
-    line-height: 40px;
-
-}
-
-
-}
-/* ..................media queries-----(403)----.............. */
-@media screen and (max-width:403px){
-    .About {
-        padding: 80px 30px;
-        height: 115vh;
-
-    }
-
-
-
-    .my-img {
-
-        height: 30vh;
-
-        width: 180px;
-
-    }
-
-    .my-img img {
-    
-        height: 27vh;
-
-        width: 160px;
-    }
-
-    .my-detail h1 {
-        font-size: 2.2rem;
-        line-height: 100px;
-
-    }
-
-    .my-detail p {
-        font-size: 1.2rem;
-        line-height: 30px;
-
-    }
-
-
-}
-
-/* ..................media queries-----(394)----.............. */
-@media screen and (max-width:394px) {
-    .About {
-        padding: 176px 30px;
-        height: 94vh;
-    }
-    
-    .my-img {
-        height: 29vh;
-    width: 209px;
-    }
-    .my-img img {
-        height: 27vh;
-        width: 192px;
-    }
-
-}
-
-
-/* ..................media queries-----(375)----.............. */
-@media screen and (max-width:376px) {
-   
-
-    .About {
-        padding: 70px 20px;
-        height: 90vh;
-        /* margin-left: 30px; */
-width: 395px;
+.About{
 /* border: 2px solid greenyellow; */
-    }
-
-
-
-    .my-img {
-
-        height: 30vh;
-
-        width: 180px;
-
-    }
-
-    .my-img img {
-    
-        height: 27vh;
-
-        width: 160px;
-    }
-
-    .my-detail h1 {
-        font-size: 2.2rem;
-        line-height: 100px;
-
-    }
-
-    .my-detail p {
-        font-size: 1.2rem;
-        line-height: 30px;
-
-    }
-
-
-
-
-
-
-
-
-
+display: flex;
+height: 90vh;
+justify-content: space-between;
+padding: 130px 10%;
 
 }
+
+.profile-img-div{
+    /* border: 2px solid orange; */
+    padding: 20px 30px; 
+
+}
+.profile-img-div img{
+border-radius: 10%;
+width:430px ;
+height:300px ;
+/* border: 5px solid white; */
+
+}
+
+
+.my-detail{
+    /* border: 2px solid red; */
+ padding: 10px 70px; 
+}
+.my-detail h1{
+    text-align: center;
+    margin-bottom: 23px;
+    font-size: 4.3rem;
+}
+.my-detail p{
+
+    font-size: 1.5rem;
+}
+
+.social-icons{
+    /* border: 2px solid rebeccapurple; */
+    padding: 10px 70px;
+}
+
+
+/* .........................media quries......... */
+
+/* --------------------media (913) ----------------- */
+@media screen and  (max-width:913px) {
+    
+.About{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    padding: 130px 0%;
+    
+    }
+    
+    .profile-img-div{
+        /* border: 2px solid orange; */
+        padding: 30% 30px; 
+    
+    }
+    .profile-img-div img{
+    border-radius: 10%;
+    width:330px ;
+    height:200px ;
+    /* border: 5px solid white; */
+    
+    }
+    
+    
+    .my-detail{
+        /* border: 2px solid red; */
+     padding: 20% 40px; 
+    }
+    .my-detail h1{
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+    .my-detail p{
+    
+        font-size: 1.3rem;
+    }
+    
+    .social-icons{
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 20px;
+    }
+    
+.github,.linkdin,.insta{
+
+    width:50px; 
+    height: 50px;
+
+}
+
+}
+
+
+
+
+
+
+
+/* --------------------media (541) ----------------- */
+@media screen and  (max-width:541px) {
+    
+    .About{
+        border: 2px solid greenyellow;
+        display: flex;
+        height: 145vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 0%;
+        
+        }
+        
+        .profile-img-div{
+            /* border: 2px solid orange; */
+            padding: 15% 100px; 
+        
+        }
+        .profile-img-div img{
+        border-radius: 10%;
+        width:330px ;
+        height:200px ;
+        border: 5px solid white;
+        
+        }
+        
+        
+        .my-detail{
+            /* border: 2px solid red; */
+         padding: 0 40px; 
+         margin-bottom: 250px;
+        }
+        .my-detail h1{
+            text-align: center;
+            margin-bottom: 23px;
+            font-size: 2.3rem;
+        }
+        .my-detail p{
+        
+            font-size: 1.2rem;
+        }
+        
+        .social-icons{
+            /* border: 2px solid rebeccapurple; */
+            padding: 4px 80px;
+        }
+        
+    .github,.linkdin,.insta{
+    
+        width:50px; 
+        height: 50px;
+    
+    }
+    
+    }
+
+
+
