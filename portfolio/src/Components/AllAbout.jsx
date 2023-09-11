@@ -55,9 +55,20 @@ function AllAbout() {
         </p>
 
         <div className="social-icons">
-                    <FaGithub className='github' size={50} style={{ color: "#fff" }} />
-                    <AiFillLinkedin  className='linkdin'size={50} style={{ color: "#fff" }} />
-                    <PiInstagramLogoBold className='insta' size={50} style={{ color: "#fff" }} />
+        <a href="https://github.com/RachitSahu26" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className='github' size={50} style={{ color: "#fff" }} />
+                    </a>
+
+                    {/* LinkedIn Link */}
+                    <a href="https://www.linkedin.com/in/rachit-sahu-004ba2255/" target="_blank" rel="noopener noreferrer">
+                        <AiFillLinkedin className='linkdin' size={50} style={{ color: "#fff" }} />
+                    </a>
+
+                    {/* Instagram Link */}
+                    <a href="https://www.instagram.com/curious.rachit/" target="_blank" rel="noopener noreferrer">
+                        <PiInstagramLogoBold className='insta' size={50} style={{ color: "#fff" }} />
+                    </a>
+              
                 </div>
 
 

@@ -1,0 +1,147 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.attractive-name {
+    font-family: 'Your Selected Font', sans-serif;
+    font-size: 24px;
+    /* color: #ff5500; */
+    height: 80vh;
+    /* border:  2px solid red; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    /* Replace with your desired color code */
+    /* Add any other styles you want here */
+  }
+
+
+
+  .attractive-name p{
+    font-size: 7rem;
+    text-align: center;
+    padding: 140px 20px;
+    font-weight: 1000;
+    /* font-size: 20rem; */
+    font-family: 'black_bones_personal_useRg', sans-serif;
+    background: linear-gradient(to top, #ef2658, #0d4eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-colour: transparent;
+color: transparent;
+  }
+
+
+
+
+  /* .............media Quries........... */
+
+
+
+  /* ------------- media for (1281)----------- */
+
+@media screen and (max-width:1281px){
+
+
+
+  .attractive-name p{
+    font-size: 13rem;
+    padding: 125px 20px;
+
+  }
+
+
+}
+ 
+
+
+  /* ------------- media for (1025)----------- */
+
+  @media screen and (max-width:1025px){
+
+
+    .attractive-name{
+      /* border: 2px solid red; */
+      height: 98vh;
+    }
+
+    .attractive-name p{
+      font-size: 12rem;
+      padding: 35px 20px;
+  
+    }
+  
+  
+  }
+   
+
+
+
+ /* ------------- media for (913)----------- */
+
+ @media screen and (max-width:913px){
+
+  .attractive-name{
+      /* border: 2px solid red; */
+      height: 70vh;
+
+  }
+
+  .attractive-name p{
+    font-size: 12rem;
+    padding: 265px 20px;
+
+  }
+
+
+}
+
+ /* ------------- media for (541)----------- */
+
+ @media screen and (max-width:541px){
+
+  .attractive-name{
+    /* border: 2px solid red; */
+    height: 90vh;
+
+}
+
+  .attractive-name p{
+    font-size: 8rem;
+    padding: 155px 20px;
+
+  }
+
+
+}
+
+ 
+
+ /* ------------- media for (413)----------- */
+
+@media screen and (max-width:413px){
+
+
+
+  .attractive-name p{
+    font-size: 7rem;
+    padding: 213px 20px;
+
+  }
+
+
+}
+
+
+ /* ------------- media for (394)----------- */
+
+ @media screen and (max-width:394px){
+
+
+  .attractive-name p{
+    font-size: 7rem;
+    padding: 183px 20px;
+
+  }
+
+
+}

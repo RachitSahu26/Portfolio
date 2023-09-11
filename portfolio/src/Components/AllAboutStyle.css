@@ -1,100 +1,259 @@
-
-.About{
-/* border: 2px solid greenyellow; */
-display: flex;
-height: 90vh;
-justify-content: space-between;
-padding: 130px 10%;
+.About {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    padding: 130px 10%;
 
 }
 
-.profile-img-div{
+.profile-img-div {
     /* border: 2px solid orange; */
-    padding: 20px 30px; 
-
-}
-.profile-img-div img{
-border-radius: 10%;
-width:430px ;
-height:300px ;
-/* border: 5px solid white; */
+    padding: 20px 30px;
 
 }
 
+.profile-img-div img {
+    border-radius: 10%;
+    width: 430px;
+    height: 300px;
+    /* border: 5px solid white; */
+transition: all ease-in 0.3s;
+}
+.profile-img-div img:hover {
+  scale: 0.9;
+}
 
-.my-detail{
+
+.my-detail {
     /* border: 2px solid red; */
- padding: 10px 70px; 
+    padding: 10px 70px;
 }
-.my-detail h1{
+
+.my-detail h1 {
     text-align: center;
     margin-bottom: 23px;
     font-size: 4.3rem;
 }
-.my-detail p{
+
+.my-detail p {
 
     font-size: 1.5rem;
 }
 
-.social-icons{
+.social-icons {
     /* border: 2px solid rebeccapurple; */
     padding: 10px 70px;
 }
 
 
 /* .........................media quries......... */
+/* --------------------media (1281) ----------------- */
+@media screen and (max-width:1281px) {
 
-/* --------------------media (913) ----------------- */
-@media screen and  (max-width:913px) {
-    
-.About{
-    /* border: 2px solid greenyellow; */
-    display: flex;
-    height: 75vh;
-    justify-content: space-between;
-    padding: 130px 0%;
-    
+    .About {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        height: 100vh;
+        justify-content: space-between;
+        padding: 130px 0%;
+
     }
-    
-    .profile-img-div{
+
+}
+
+
+
+
+
+/* --------------------media (1025) ----------------- */
+@media screen and (max-width:1025px) {
+
+    .About {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        height: 150vh;
+        justify-content: space-between;
+        padding: 130px 0%;
+
+    }
+
+    .profile-img-div {
         /* border: 2px solid orange; */
-        padding: 35% 30px; 
-    
+        padding: 28% 30px;
+
     }
-    .profile-img-div img{
-    border-radius: 10%;
-    width:330px ;
-    height:200px ;
-    /* border: 5px solid white; */
-    
+
+    .profile-img-div img {
+        border-radius: 10%;
+        width: 330px;
+        height: 323px;
+        /* border: 5px solid white; */
+
     }
-    
-    
-    .my-detail{
+
+
+    .my-detail {
         /* border: 2px solid red; */
-     padding: 20% 40px; 
+        padding: 20% 40px;
     }
-    .my-detail h1{
+
+    .my-detail h1 {
         text-align: center;
         margin-bottom: 23px;
         font-size: 2.7rem;
     }
-    .my-detail p{
-    
+
+    .my-detail p {
+
         font-size: 1.8rem;
     }
-    
-    .social-icons{
-        /* border: 2px solid rebeccapurple; */
-        padding: 4px 20px;
-    }
-    
-.github,.linkdin,.insta{
 
-    width:50px; 
-    height: 50px;
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 70px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 50px;
+        height: 50px;
+
+    }
 
 }
+
+/* --------------------media (913) ----------------- */
+@media screen and (max-width:913px) {
+
+    .About {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        height: 75vh;
+        justify-content: space-between;
+        padding: 130px 0%;
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 28% 30px;
+
+    }
+
+    .profile-img-div img {
+        border-radius: 10%;
+        width: 330px;
+        height: 323px;
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 20% 40px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.7rem;
+    }
+
+    .my-detail p {
+
+        font-size: 1.8rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 70px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+}
+
+
+/* --------------------media (821) ----------------- */
+@media screen and (max-width:821px) {
+
+    .About {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        height: 75vh;
+        justify-content: space-between;
+        padding: 50px 0%;
+
+    }
+
+    .profile-img-div img {
+        border-radius: 10%;
+        width: 330px;
+        height: 240px;
+        /* border: 5px solid white; */
+
+    }
+
+    .my-detail p {
+
+        font-size: 1.4rem;
+    }
+
+
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 15px;
+    }
+
+
+}
+
+
+
+/* --------------------media (769) ----------------- */
+@media screen and (max-width:769px) {
+
+    .About {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        height: 75vh;
+        justify-content: space-between;
+        padding: 50px 0%;
+
+    }
+
+    .profile-img-div img {
+        border-radius: 10%;
+        width: 330px;
+        height: 240px;
+        /* border: 5px solid white; */
+
+    }
+
+    .my-detail p {
+
+        font-size: 1.1rem;
+    }
+
+
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 15px;
+    }
+
 
 }
 
@@ -105,61 +264,65 @@ height:300px ;
 
 
 /* --------------------media (541) ----------------- */
-@media screen and  (max-width:541px) {
-    
-    .About{
+@media screen and (max-width:541px) {
+
+    .About {
         /* border: 2px solid greenyellow; */
         display: flex;
         height: 145vh;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px 0%;
-        
-        }
-        
-        .profile-img-div{
-            /* border: 2px solid orange; */
-            padding: 15% 100px; 
-        
-        }
-        .profile-img-div img{
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 15% 100px;
+
+    }
+
+    .profile-img-div img {
         border-radius: 10%;
-        width:330px ;
-        height:240px ;
-        border: 5px solid white;
-        
-        }
-        
-        
-        .my-detail{
-            /* border: 2px solid red; */
-         padding: 0 40px; 
-         margin-bottom: 250px;
-        }
-        .my-detail h1{
-            text-align: center;
-            margin-bottom: 23px;
-            font-size: 2.3rem;
-        }
-        .my-detail p{
-        
-            font-size: 1.2rem;
-        }
-        
-        .social-icons{
-            /* border: 2px solid rebeccapurple; */
-            padding: 4px 80px;
-        }
-        
-    .github,.linkdin,.insta{
-    
-        width:50px; 
+        width: 330px;
+        height: 240px;
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 0 40px;
+        margin-bottom: 250px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+
+    .my-detail p {
+
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 80px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 50px;
         height: 50px;
-    
-    }
-    
+
     }
 
+}
 
 
 
@@ -167,65 +330,71 @@ height:300px ;
 
 
 
-    
+
+
 
 
 /* --------------------media (415) ----------------- */
-@media screen and  (max-width:415px) {
-    
-    .About{
+@media screen and (max-width:415px) {
+
+    .About {
         /* border: 2px solid greenyellow; */
         display: flex;
         height: 120vh;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px 0%;
-        
-        }
-        
-        .profile-img-div{
-            /* border: 2px solid orange; */
-            padding: 15% 40px; 
-        
-        }
-        .profile-img-div img{
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 15% 40px;
+
+    }
+
+    .profile-img-div img {
         border-radius: 10%;
-        width:330px ;
-        height:240px ;
-        border: 5px solid white;
-        
-        }
-        
-        
-        .my-detail{
-            /* border: 2px solid red; */
-         padding: 0 40px; 
-         margin-bottom: 250px;
-        }
-        .my-detail h1{
-            text-align: center;
-            margin-bottom: 23px;
-            font-size: 2.3rem;
-        }
-        .my-detail p{
-            text-align: center;
-        
-            font-size: 1.7rem;
-        }
-        
-        .social-icons{
-            /* border: 2px solid rebeccapurple; */
-            padding: 4px 41px;
-        }
-        
-    .github,.linkdin,.insta{
-    
-        width:50px; 
+        width: 330px;
+        height: 240px;
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 0 40px;
+        margin-bottom: 250px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+
+    .my-detail p {
+        text-align: center;
+
+        font-size: 1.7rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 41px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 50px;
         height: 50px;
-    
+
     }
-    
-    }
+
+}
 
 
 
@@ -235,126 +404,135 @@ height:300px ;
 
 
 /* --------------------media (394) ----------------- */
-@media screen and  (max-width:394px) {
-    
-    .About{
+@media screen and (max-width:394px) {
+
+    .About {
         /* border: 2px solid greenyellow; */
         display: flex;
         height: 127vh;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px 0%;
-        
-        }
-        
-        .profile-img-div{
-            /* border: 2px solid orange; */
-            padding: 15% 43px; 
-        
-        }
-        .profile-img-div img{
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 15% 43px;
+
+    }
+
+    .profile-img-div img {
         border-radius: 10%;
         width: 300px;
         height: 220px;
-        border: 5px solid white;
-        
-        }
-        
-        
-        .my-detail{
-            /* border: 2px solid red; */
-         padding: 0 40px; 
-         margin-bottom: 250px;
-        }
-        .my-detail h1{
-            text-align: center;
-            margin-bottom: 23px;
-            font-size: 2.3rem;
-        }
-        .my-detail p{
-            text-align: center;
-        
-            font-size: 1.5rem;
-        }
-        
-        .social-icons{
-            /* border: 2px solid rebeccapurple; */
-            padding: 4px 44px;
-        }
-        
-    .github,.linkdin,.insta{
-    
-        width:40px; 
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 0 40px;
+        margin-bottom: 250px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+
+    .my-detail p {
+        text-align: center;
+
+        font-size: 1.5rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 44px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 40px;
         height: 40px;
-    
-    
-    }
-    
+
+
     }
 
+}
 
 
 
 
 
-    
+
+
 /* --------------------media (376) ----------------- */
-@media screen and  (max-width:376px) {
-    
-    .About{
+@media screen and (max-width:376px) {
+
+    .About {
         /* border: 2px solid greenyellow; */
         display: flex;
-        height: 133vh;
+        height: 150vh;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px 0%;
-        
-        }
-        
-        .profile-img-div{
-            /* border: 2px solid orange; */
-            padding: 15% 36px; 
-        
-        }
-        .profile-img-div img{
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 15% 36px;
+
+    }
+
+    .profile-img-div img {
         border-radius: 10%;
         width: 300px;
         height: 220px;
-        border: 5px solid white;
-        
-        }
-        
-        
-        .my-detail{
-            /* border: 2px solid red; */
-         padding: 0 40px; 
-         margin-bottom: 250px;
-        }
-        .my-detail h1{
-            text-align: center;
-            margin-bottom: 23px;
-            font-size: 2.3rem;
-        }
-        .my-detail p{
-            text-align: center;
-        
-            font-size: 1.5rem;
-        }
-        
-        .social-icons{
-            /* border: 2px solid rebeccapurple; */
-            padding: 4px 39px;
-        }
-        
-    .github,.linkdin,.insta{
-    
-        width:40px; 
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 0 40px;
+        margin-bottom: 250px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+
+    .my-detail p {
+        text-align: center;
+
+        font-size: 1.3rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 33px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 40px;
         height: 40px;
-    
-    }
-    
+
     }
 
+}
 
 
 
@@ -362,64 +540,67 @@ height:300px ;
 
 
 
-    
+
+
 /* --------------------media (361) ----------------- */
-@media screen and  (max-width:361px) {
-    
-    .About{
+@media screen and (max-width:361px) {
+
+    .About {
         /* border: 2px solid greenyellow; */
         display: flex;
         height: 140vh;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px 0%;
-        
-        }
-        
-        .profile-img-div{
-            /* border: 2px solid orange; */
-            padding: 15% 27px; 
-        
-        }
-        .profile-img-div img{
+
+    }
+
+    .profile-img-div {
+        /* border: 2px solid orange; */
+        padding: 15% 27px;
+
+    }
+
+    .profile-img-div img {
         border-radius: 10%;
         width: 300px;
         height: 220px;
-        border: 5px solid white;
-        
-        }
-        
-        
-        .my-detail{
-            /* border: 2px solid red; */
-         padding: 0 40px; 
-         margin-bottom: 250px;
-        }
-        .my-detail h1{
-            text-align: center;
-            margin-bottom: 23px;
-            font-size: 2.3rem;
-        }
-        .my-detail p{
-            text-align: center;
-        
-            font-size: 1.5rem;
-        }
-        
-        .social-icons{
-            /* border: 2px solid rebeccapurple; */
-            padding: 4px 30px;
-        }
-        
-    .github,.linkdin,.insta{
-    
-        width:40px; 
+        /* border: 5px solid white; */
+
+    }
+
+
+    .my-detail {
+        /* border: 2px solid red; */
+        padding: 0 40px;
+        margin-bottom: 250px;
+    }
+
+    .my-detail h1 {
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 2.3rem;
+    }
+
+    .my-detail p {
+        text-align: center;
+
+        font-size: 1.5rem;
+    }
+
+    .social-icons {
+        /* border: 2px solid rebeccapurple; */
+        padding: 4px 30px;
+    }
+
+    .github,
+    .linkdin,
+    .insta {
+
+        width: 40px;
         height: 40px;
-    
-    
-    }
-    
+
+
     }
 
-
-
+}

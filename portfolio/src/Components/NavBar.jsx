@@ -11,17 +11,17 @@ function NavBar() {
         <div className='header'>
             {/* ..............left nav .................... */}
             <div className="left-side-nav">
-                <h1><Link to="/"> PortFolio</Link></h1>
+                <h1><Link to="/"className='vrs-name' style={{ fontFamily: 'Script, cursive' }}>Vrs</Link></h1>
             </div>
 
             {/* .................right nav............... */}
             <div className={ click  ? "ur-div":"ur-div-active"}>
  
                 <ul className={click ? "right-side-nav":"right-side-nav-active"}>
-                    <li><Link to="/" >Home</Link></li>
-                    <li><Link to="/projects" >Projects</Link></li>
-                    <li><Link to="/about" >About</Link></li>
-                    <li><Link to="/contact" >Contact</Link></li>
+                    <li><Link to="/" style={{ fontFamily: 'Script, cursive' }}>Home</Link></li>
+                    <li><Link to="/projects" style={{ fontFamily: 'Script, cursive' }}>Projects</Link></li>
+                    <li><Link to="/about" style={{ fontFamily: 'Script, cursive' }}>About</Link></li>
+                    <li><Link to="/contact" style={{ fontFamily: 'Script, cursive' }}>Contact</Link></li>
 
                 </ul>
             </div>
@@ -36,10 +36,10 @@ function NavBar() {
             <div className="hamburger" onClick={handleClick}>
                 {
                     click ? (
-                        <FaTimes size={40} style={{ color: "#fff" }} />
+                        <FaTimes size={40} style={{ color: "#0CBABA" }} />
 
                     ) : (
-                        <GiHamburgerMenu size={40} style={{ color: "#a1eb40" }} />
+                        <GiHamburgerMenu size={40} style={{ color:  "#0CBABA" }} />
 
                     )
                 }

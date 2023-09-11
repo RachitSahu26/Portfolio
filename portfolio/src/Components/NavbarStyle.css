@@ -5,7 +5,14 @@ flex-direction: row;
     /* background-color: red; */
     padding: 10px 50px;
 }
+.vrs-name{
 
+    font-family: 'black_bones_personal_useRg', sans-serif;
+    background: linear-gradient(to top, #c63748, #1e82ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-colour: transparent;
+color: transparent;
+}
 .right-side-nav-active{
     /* background-color: yellow; */
 display: flex;
@@ -92,6 +99,7 @@ flex-direction: column;
     padding-left: 2rem;
     font-size: 2.5rem;
 padding-top: 60px;
+
 /* height: 80vh; */
 
 }
@@ -107,4 +115,81 @@ padding-top: 60px;
 }
 
 
+}
+  /* .............media Quries........... */
+/* ---------------for (1281)------ */
+@media screen and (max-width:1281px){
+    .ur-div{
+        height: 80vh;
+    }
+    .vrs-name{
+        font-size: 3rem;
+    }
+}
+
+/* ---------------for (1025)------ */
+@media screen and (max-width:1025px){
+
+    .vrs-name{
+        font-size: 2.5rem;
+    }
+}
+
+/* ---------------for (913)------ */
+@media screen and (max-width:913px){
+
+    .vrs-name{
+        font-size: 2.5rem;
+    }
+    .right-side-nav{
+        margin-top: 193px;
+    }
+    
+    .right-side-nav li a{
+        font-size: 5rem;
+        
+    } 
+    
+}
+
+/* ---------------for (821)------ */
+@media screen and (max-width:821px){
+    
+   
+    
+    .right-side-nav li a{
+        font-size: 4rem;
+        
+    } 
+
+}
+
+/* ---------------for (769)------ */
+@media screen and (max-width:769px){
+    .right-side-nav{
+        margin-top: 93px;
+    }
+    
+    .right-side-nav li a{
+        font-size: 4rem;
+        
+    } 
+
+}
+
+/* ---------------for (541)------ */
+@media screen and (max-width:541px){
+
+    .vrs-name{
+        font-size: 2.5rem;
+    }
+    .right-side-nav{
+        margin-top: 3px;
+    }
+    
+    .right-side-nav li a{
+        font-size: 3rem;
+        
+    } 
+    
 }
