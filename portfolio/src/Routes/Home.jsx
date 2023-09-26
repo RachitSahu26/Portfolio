@@ -8,6 +8,7 @@ import AllAbout from '../Components/AllAbout'
 import CardArea from '../Components/CardArea'
 import Form from '../Components/Form'
 import MyName from '../Components/MyName';
+import Technology from '../Components/Technology';
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
 {/* <HomeSec/> */}
 <MyName/>
 <AllAbout/>
+<Technology/>
 <CardArea/>
 <Form/>
 
