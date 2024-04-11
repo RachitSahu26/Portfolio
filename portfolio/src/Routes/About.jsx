@@ -8,8 +8,8 @@ function About() {
   return (
     <div>
       <NavBar />
-      <HeroSec2 Title={"About Section"} Text={"all about my self"}/>
-<AllAbout/>
+      <HeroSec2 Title={"About Section"} Text={"all about my self"} />
+      <AllAbout />
       <Footer />
     </div>
   )
